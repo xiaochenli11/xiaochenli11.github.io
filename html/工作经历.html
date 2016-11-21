@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>工作经历</title>
+	<style type="text/css">
+
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	.content{
+		width: 1600px;
+		height: 900px;
+		position: relative;
+		margin: 0 auto;
+	}
+
+	.text1,.text3,.text5,.text7{
+		width: 800px;
+		height: 100px;
+		position: absolute;
+		top: 100px;
+		left: 100px;
+		font: bold 50px 微软雅黑;
+		color: #7A378B;
+		margin-left: 40px;
+	}
+
+	.text2,.text4,.text6,.text8{
+		width: 230px;
+		height: 100px;
+		position: absolute;
+		top: 200px;
+		left: 100px;
+		font: 30px 微软雅黑;
+		color: #7A378B;
+		margin-left: 40px;
+	}
+
+	.scene1{
+		width: 1600px;
+		height: 900px;
+		background: url(img/界面1.jpg);
+		position: absolute;
+		z-index: 31;
+		opacity: 1;
+		animation:out1 1.5s 8s forwards;
+		-moz-animation:out1 1.5s 8s forwards; /* Firefox */
+		-webkit-animation:out1 1.5s 8s forwards; /* Safari and Chrome */
+		-o-animation:out1 1.5s 8s forwards; /* Opera */
+	}
+
+	@keyframes out1{
+	from{opacity: 1;}
+	to{opacity: 0;}	
+	}
+	@-moz-keyframes out1 /* Firefox */
+	{
+	from{opacity: 1;}
+	to{opacity: 0;}		
+	}
+	@-webkit-keyframes out1 /* Safari and Chrome */
+	{
+	from{opacity: 1;}
+	to{opacity: 0;}		
+	}
+	@-o-keyframes out1 /* Opera */
+	{
+	from{opacity: 1;}
+	to{opacity: 0;}		
+	}	
+
+	.text1{
+		opacity: 0;
+		animation:in1 1s 1.5s forwards;
+		-moz-animation:in1 1s 1.5s forwards; /* Firefox */
+		-webkit-animation:in1 1s 1.5s forwards; /* Safari and Chrome */
+		-o-animation:in1 1s 1.5s forwards; /* Opera */
+	}
+
+	@keyframes in1{
+	from{opacity: 0;margin-left: 40px;}
+	to{opacity: 1;margin-left: 0px;}	
+	}
+	@-moz-keyframes in1 /* Firefox */
+	{
+	from{opacity: 0;margin-left: 40px;}
+	to{opacity: 1;margin-left: 0px;}
+	}
+	@-webkit-keyframes in1 /* Safari and Chrome */
+	{
+	from{opacity: 0;margin-left: 40px;}
+	to{opacity: 1;margin-left: 0px;}
+	}
+	@-o-keyframes in1 /* Opera */
+	{
+	from{opacity: 0;margin-left: 40px;}
+	to{opacity: 1;margin-left: 0px;}	
+	}
+	
+	.text2{
+		opacity: 0;
+		animation:in1 1s 3s forwards;
+		-moz-animation:in1 1s 3s forwards; /* Firefox */
+		-webkit-animation:in1 1s 3s forwards; /* Safari and Chrome */
+		-o-animation:in1 1s 3s forwards; /* Opera */
+	}
+
+
+	.cly{
+		width: 400px;
+		height: 200px;
+		position: absolute;
+		top: 650px;
+		left: 800px;
+	}
+
+	.cly1{
+		width: 80px;
+		height: 200px;
+		position: absolute;
+		background: url(img/cly1.png) no-repeat;
+		animation:move2 2s  infinite;
+		-moz-animation:move2 2s  infinite; /* Firefox */
+		-webkit-animation:move2 2s  infinite; /* Safari and Chrome */
+		-o-animation:move2 2s  infinite; /* Opera */
+	}
+
+	@keyframes move2
+	{
+		0%   {background: url(img/cly1.png) no-repeat;}
+		33%  {background: url(img/cly2.png) no-repeat;}
+		66%  {background: url(img/cly3.png) no-repeat;}
+		100%  {background: url(img/cly1.png) no-repeat;}		
+	}
+	@-moz-keyframes move2 /* Firefox */
+	{
+		0%   {background: url(img/cly1.png) no-repeat;}
+		33%  {background: url(img/cly2.png) no-repeat;}
+		66%  {background: url(img/cly3.png) no-repeat;}
+		100%  {background: url(img/cly1.png) no-repeat;}		
+	}
+	@-webkit-keyframes move2 /* Safari and Chrome */
+	{
+		0%   {background: url(img/cly1.png) no-repeat;}
+		33%  {background: url(img/cly2.png) no-repeat;}
+		66%  {background: url(img/cly3.png) no-repeat;}
+		100%  {background: url(img/cly1.png) no-repeat;}		
+	}
+	@-o-keyframes move2 /* Opera */
+	{
+		0%   {background: url(img/cly1.png) no-repeat;}
+		33%  {background: url(img/cly2.png) no-repeat;}
+		66%  {background: url(img/cly3.png) no-repeat;}
+		100%  {background: url(img/cly1.png) no-repeat;}		
+	}
+
+
+	.scene2{
+		width: 1600px;
+		height: 900px;
+		background: url(img/界面2.jpg);
+		position: absolute;
+		z-index: 21;		
+		opacity: 1;
+		animation:out1 1.5s 17.5s forwards;
+		-moz-animation:out1 1.5s 17.5s forwards; /* Firefox */
+		-webkit-animation:out1 1.5s 17.5s forwards; /* Safari and Chrome */
+		-o-animation:out1 1.5s 17.5s forwards; /* Opera */
+	}
+	
+
+	.text3{
+		opacity: 0;
+		animation:in1 1s 11s forwards;
+		-moz-animation:in1 1s 11s forwards; /* Firefox */
+		-webkit-animation:in1 1s 11s forwards; /* Safari and Chrome */
+		-o-animation:in1 1s 11s forwards; /* Opera */
+	}
+
+
+	
+	.text4{
+		opacity: 0;
+		animation:in1 1s 12.5s forwards;
+		-moz-animation:in1 1s 12.5s forwards; /* Firefox */
+		-webkit-animation:in1 1s 12.5s forwards; /* Safari and Chrome */
+		-o-animation:in1 1s 12.5s forwards; /* Opera */
+	}
+
+
+	.bzg{
+		width: 400px;
+		height: 200px;
+		position: absolute;
+		top: 650px;
+		left: 800px;
+	}
+
+	.bzg1{
+		width: 80px;
+		height: 200px;
+		position: absolute;
+		background: url(img/bzg2.png) no-repeat;
+		animation:move3 2s  infinite;
+		-moz-animation:move3 2s  infinite; /* Firefox */
+		-webkit-animation:move3 2s  infinite; /* Safari and Chrome */
+		-o-animation:move3 2s  infinite; /* Opera */
+	}
+
+	@keyframes move3
+	{
+		from  {background: url(img/bzg2.png) no-repeat;}
+		to  {background: url(img/bzg3.png) no-repeat;}		
+	}
+	@-moz-keyframes move3 /* Firefox */
+	{
+		from  {background: url(img/bzg2.png) no-repeat;}
+		to  {background: url(img/bzg3.png) no-repeat;}		
+	}
+	@-webkit-keyframes move3 /* Safari and Chrome */
+	{
+		from  {background: url(img/bzg2.png) no-repeat;}
+		to  {background: url(img/bzg3.png) no-repeat;}		
+	}
+	@-o-keyframes move3 /* Opera */
+	{
+		from  {background: url(img/bzg2.png) no-repeat;}
+		to  {background: url(img/bzg3.png) no-repeat;}		
+	}
+
+	
+	
+	.scene3{
+		width: 1600px;
+		height: 900px;
+		background: url(img/界面3.jpg);
+		position: absolute;
+		z-index: 11;
+		opacity: 1;
+		animation:out1 1.5s 30s forwards;
+		-moz-animation:out1 1.5s 30s forwards; /* Firefox */
+		-webkit-animation:out1 1.5s 30s forwards; /* Safari and Chrome */
+		-o-animation:out1 1.5s 30s forwards; /* Opera */
+	}
+
+	.text5{
+		opacity: 0;
+		animation:in1 1s 20.5s forwards;
+		-moz-animation:in1 1s 20.5s forwards; /* Firefox */
+		-webkit-animation:in1 1s 20.5s forwards; /* Safari and Chrome */
+		-o-animation:in1 1s 20.5s forwards; /* Opera */
+	}
+
+	
+	.text6{
+		opacity: 0;
+		animation:in1 1s 23s forwards;
+		-moz-animation:in1 1s 23s forwards; /* Firefox */
+		-webkit-animation:in1 1s 23s forwards; /* Safari and Chrome */
+		-o-animation:in1 1s 23s forwards; /* Opera */
+	}
+
+	.mla{
+		width: 100px;
+		height: 200px;
+		position: absolute;
+		top: 295px;
+		left: 630px;
+		background: url(img/mla1.png) no-repeat;
+	}
+
+	.gd{
+		width: 400px;
+		height: 200px;
+		position: absolute;
+		top: 390px;
+		left: 790px;
+		background: url(img/gd.png) no-repeat;
+		animation:move1 4s 22s forwards;
+		-moz-animation:move1 4s 22s forwards; /* Firefox */
+		-webkit-animation:move1 4s 22s forwards; /* Safari and Chrome */
+		-o-animation:move1 4s 22s forwards; /* Opera */
+	}
+
+	@keyframes move1{
+	from{top: 390px;left: 790px;}
+	to{top: 650px;left: 770px;}	
+	}
+	@-moz-keyframes move1 /* Firefox */
+	{
+	from{top: 390px;left: 790px;}
+	to{top: 650px;left: 770px;}			
+	}
+	@-webkit-keyframes move1 /* Safari and Chrome */
+	{
+	from{top: 390px;left: 790px;}
+	to{top: 650px;left: 770px;}			
+	}
+	@-o-keyframes move1 /* Opera */
+	{
+	from{top: 390px;left: 790px;}
+	to{top: 650px;left: 770px;}		
+	}	
+
+	.scene4{
+		width: 1600px;
+		height: 900px;
+		background: url(img/界面4.jpg);
+		position: absolute;
+		z-index: 1;		
+	}
+	.text7{
+		opacity: 0;
+		animation:in1 1s 34s forwards;
+		-moz-animation:in1 1s 34s forwards; /* Firefox */
+		-webkit-animation:in1 1s 34s forwards; /* Safari and Chrome */
+		-o-animation:in1 1s 34s forwards; /* Opera */
+	}
+	
+	.text8{
+		opacity: 0;
+		animation:in1 1s 35.5s forwards;
+		-moz-animation:in1 1s 35.5s forwards; /* Firefox */
+		-webkit-animation:in1 1s 35.5s forwards; /* Safari and Chrome */
+		-o-animation:in1 1s 35.5s forwards; /* Opera */
+	}
+
+	.text9{
+		width: 600px;
+		height: 600px;
+		position: absolute;
+		top: 180px;
+		left: 500px;
+		font: 30px 微软雅黑;
+		color: #FFFFFF;
+		margin-left: 40px;
+		opacity: 0;
+		animation:in1 1s 38s forwards;
+		-moz-animation:in1 1s 38s forwards; /* Firefox */
+		-webkit-animation:in1 1s 38s forwards; /* Safari and Chrome */
+		-o-animation:in1 1s 38s forwards; /* Opera */
+	}
+
+	.text10{
+		width: 600px;
+		height: 600px;
+		position: absolute;
+		top: 580px;
+		left: 700px;
+		font: 50px 微软雅黑;
+		color: #FFFFFF;
+		margin-left: 40px;
+		opacity: 0;
+		animation:in1 1s 44s forwards;
+		-moz-animation:in1 1s 44s forwards; /* Firefox */
+		-webkit-animation:in1 1s 44s forwards; /* Safari and Chrome */
+		-o-animation:in1 1s 44s forwards; /* Opera */
+		 animation:fadeOut 2s 44s infinite;
+        -moz-animation:fadeOut 2s 44s infinite; /* Firefox */
+        -webkit-animation:fadeOut 2s 44s infinite; /* Safari and Chrome */
+        -o-animation:fadeOut 2s 44s infinite; /* Opera */
+	}
+
+		@keyframes fadeOut
+		{
+		0% {opacity:0;}
+		25% {opacity:0.5;}
+		50% {opacity:1;}
+		75% {opacity:0.5;}
+		100%{opacity:0;}	
+		}
+		@-moz-keyframes fadeOut /* Firefox */
+		{
+		0% {opacity:0;}
+		25% {opacity:0.5;}
+		50% {opacity:1;}
+		75% {opacity:0.5;}
+		100%{opacity:0;}
+		}
+		@-webkit-keyframes fadeOut /* Safari and Chrome */
+		{
+		0% {opacity:0;}
+		25% {opacity:0.5;}
+		50% {opacity:1;}
+		75% {opacity:0.5;}
+		100%{opacity:0;}	
+		}
+		@-o-keyframes fadeOut /* Opera */
+		{
+		0% {opacity:0;}
+		25% {opacity:0.5;}
+		50% {opacity:1;}
+		75% {opacity:0.5;}
+		100%{opacity:0;}		
+		}
+
+
+	</style>
+</head>
+<body>
+	<audio autoplay="">
+		<source src="bgm/Falcom.mp3" type="audio/mp3">
+		<source src="bgm/Falcom.ogg" type="audio/ogg">
+	</audio>
+	<div class="content">
+		<div class="scene1">
+			<div class="cly">
+				<div class="cly1"></div>
+			</div>
+			<div class="text1">
+			2013年6月
+			</div>
+			<div class="text2">从西南科技大学测绘工程系毕业</div>			
+		</div>
+		<div class="scene2">
+			<div class="bzg">
+				<div class="bzg1"></div>
+			</div>
+			<div class="text3">
+			2013年8月至2014年6月
+			</div>
+			<div class="text4">在凉山州冕宁县修建排洪隧洞</div>	
+		</div>
+		<div class="scene3">
+			<div class="mla">
+			</div>
+			<div class="gd">
+			</div>
+			<div class="text5">
+			2014年7月至2016年8月
+			</div>
+			<div class="text6">在成都做市政排水管道设计施工工作</div>
+		</div>		
+		<div class="scene4">
+			<div class="text7">
+			2016年8月至今
+			</div>
+			<div class="text8">在家自学web前端开发</div>
+			<div class="text9">
+			1.能使用ps做切图工作。<br>
+			2.能使用Html+Css做静态网页。<br>
+			3.能使用Javascript和Jquery做常见的特效。<br>
+			4.能使用Bootstrap做响应式布局网页。<br>
+			5.对Json、Ajax有一定的理解。<br>
+			6.熟悉浏览器之间的兼容处理。
+			</div>
+			<div class="text10">
+			THE&nbsp;END
+			</div>
+		</div>		
+	</div>
+</body>
+</html>

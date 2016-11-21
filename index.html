@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人网站</title>
+	<link rel="stylesheet" type="text/css" href="css/wz.css">
+</head>
+<body>
+	<div class="header">
+		<h1>WELCOME</h1>
+	</div>
+	<div class="content">
+		<div class="wrap">
+			<div class="diamond center-diamond">
+				<div class="profiles-max">My Personal Homepage</div>
+			</div>
+			<div id="left1" class="diamond max-diamond">
+				<div class="profiles-mid"><a href="html/海报墙.html" target="view_window">点击查看</a></div>
+			</div>
+			<div id="left2" class="diamond max-diamond">
+				<div class="profiles-mid"><a href="html/注册.html" target="view_window">点击查看</a></div>
+			</div>
+			<div id="left3" class="diamond max-diamond">
+				<div class="profiles-mid"><a href="html/企业网站/忠明测绘.html" target="view_window">点击查看</a></div>
+			</div>
+			<div id="right1" class="diamond max-diamond">
+				<div class="profiles-mid"><a href="html/工作经历.html" target="view_window">点击查看</a></div>
+			</div>
+			<div id="right2" class="diamond max-diamond"  onclick="myfun2()">
+				<div class="profiles-mid" id="profiles">点击查看</div>
+			</div>
+			<div id="right3" class="diamond max-diamond" onclick="myfun3()">
+				<div class="profiles-mid" id="profiles2">点击查看</div>
+			</div>
+			<div id="left4" class="diamond min-diamond">
+				<div class="profiles-min">海报墙→</div>
+			</div>
+			<div id="left5" class="diamond min-diamond">
+				<div class="profiles-min">仿淘宝注册→</div>
+			</div>
+			<div id="left6" class="diamond min-diamond">
+				<div class="profiles-min">企业主页→</div>
+			</div>
+			<div id="right4" class="diamond min-diamond">
+				<div class="profiles-min">←工作经历</div>
+			</div>
+			<div id="right5" class="diamond min-diamond">
+				<div class="profiles-min">←联系方式</div>
+			</div>
+			<div id="right6" class="diamond min-diamond"　onclick="myfun3()">
+				<div class="profiles-min" id="profiles6">请点击页面</div>
+			</div>
+			
+			<script type="text/javascript">
+				var left1=document.getElementById('left1');
+				var left2=document.getElementById('left2');
+				var left3=document.getElementById('left3');
+				var left4=document.getElementById('left4');
+				var left5=document.getElementById('left5');
+				var left6=document.getElementById('left6');
+				var right1=document.getElementById('right1');
+				var right2=document.getElementById('right2');
+				var right3=document.getElementById('right3');
+				var right4=document.getElementById('right4');
+				var right5=document.getElementById('right5');
+				var right6=document.getElementById('right6');
+				var profiles=document.getElementById('profiles');
+				var profiles2=document.getElementById('profiles2');
+				function myfun1() {
+					left1.className += ' left1'
+					left2.className += ' left2'
+					left3.className += ' left3'
+					left4.className += ' left4'
+					left5.className += ' left5'
+					left6.className += ' left6'
+					right1.className += ' right1'
+					right2.className += ' right2'
+					right3.className += ' right3'
+					right4.className += ' right4'
+					right5.className += ' right5'
+					right6.className += ' right6'
+					profiles6.innerHTML='←工作技能'
+				}
+				document.onclick=myfun1
+				function myfun2() {
+					profiles.innerHTML='李忠明：15390401944'
+				}
+
+				function myfun3() {
+					profiles2.innerHTML='PS HTML CSS JAVASCRIPT　JQUERY　BOOTSTRAP'
+				}
+		
+			</script>
+		</div>
+	</div>
+
+	<div class="footer">
+		<span>© 2016 <a href="">忠明</a></span>
+			&nbsp;&nbsp;
+			<a href="">295137990@qq.com</a>
+	</div>
+</body>
+</html> 
